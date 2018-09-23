@@ -4,7 +4,9 @@ import ContentContainer from './ContentContainer';
 
 class AboutContainer extends Component {
   render() {
-    return null;
+    return (
+      <ContentContainer />
+    );
   }
 }
 

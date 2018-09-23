@@ -1,8 +1,16 @@
 import React, { Component } from 'react';
 
 class ContentContainer extends Component {
+  constructor(props) {
+    super(props);
+  }
+
   render() {
-    return null;
+    return (
+      <div>
+        Here is where content will go!
+      </div>
+    );
   }
 }
 
