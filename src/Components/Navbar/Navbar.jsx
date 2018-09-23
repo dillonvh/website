@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 class Navbar extends Component {
   render() {
     return (
       <nav className='navbar navbar-expand-lg navbar-light bg-light'>
-        <a className='navbar-brand'>
-          Adam Pruner
-        </a>
+        <Link className='navbar-brand' to='/'>Adam Pruner</Link>
         <button
           className='navbar-toggler'
           type='button'
@@ -22,16 +21,13 @@ class Navbar extends Component {
         <div className='collapse navbar-collapse' id='navbarSupportedContent'>
           <ul className='navbar-nav ml-auto'>
             <li className='nav-item active'>
-              <a className='nav-link'>Home<span className='sr-only'>(current)</span></a>
+              <Link className='nav-link' to='/about'>About<span className='sr-only'>(current)</span></Link>
             </li>
             <li className='nav-item active'>
-              <a className='nav-link'>About<span className='sr-only'>(current)</span></a>
+              <Link className='nav-link' to='/resume'>Resume<span className='sr-only'>(current)</span></Link>
             </li>
             <li className='nav-item active'>
-              <a className='nav-link'>Resume<span className='sr-only'>(current)</span></a>
-            </li>
-            <li className='nav-item active'>
-              <a className='nav-link'>Contact<span className='sr-only'>(current)</span></a>
+              <Link className='nav-link' to='/contact'>Contact<span className='sr-only'>(current)</span></Link>
             </li>
           </ul>
         </div>
