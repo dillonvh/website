@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
+import Navbar from '../../Components/Navbar/Navbar';
 import './AppContainer.css';
 
 class AppContainer extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <h1 className="App-title">Welcome to Adam Pruner's Website!</h1>
-        </header>
+      <div className='app'>
+        <Navbar />
       </div>
     );
   }
