@@ -9,7 +9,7 @@ import AboutContainer from '../AboutContainer';
 import ResumeContainer from '../ResumeContainer';
 import ContactContainer from '../ContactContainer';
 
-import Navbar from '../../Components/Navbar/Navbar';
+import Navbar from '../../Components/Navbar';
 
 import './AppContainer.css';
 
