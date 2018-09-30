@@ -1,0 +1,29 @@
+/* TODO: convert to sass */
+
+.footer-container {
+  height: 150px; /* hard code this value for now, but it should really be based on the content of the footer */
+}
+
+.footer-text {
+  padding: 16px;
+}
+
+.github-link {
+  padding-left: 10px;
+}
+
+/* TODO: figure out ideal size for icons */
+.github-icon {
+  max-height: 24px;
+  max-width: 24px;
+}
+
+.linkedin-link {
+  padding-left: 10px;
+}
+
+/* TODO: figure out ideal size for icons */
+.linkedin-icon {
+  max-height: 24px;
+  max-width: 24px;
+}

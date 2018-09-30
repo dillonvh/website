@@ -4,14 +4,13 @@ import {
   Route
 } from 'react-router-dom';
 
-import HomeContainer from '../HomeContainer';
-import AboutContainer from '../AboutContainer';
-import ResumeContainer from '../ResumeContainer';
-import ContactContainer from '../ContactContainer';
+import HomeContainer from './HomeContainer';
+import AboutContainer from './AboutContainer';
+import ResumeContainer from './ResumeContainer';
+import ContactContainer from './ContactContainer';
 
-import Navbar from '../../Components/Navbar';
-
-import './AppContainer.css';
+import Navbar from '../Components/Navbar';
+import Footer from '../Components/Footer';
 
 class AppContainer extends Component {
   render() {
@@ -23,6 +22,7 @@ class AppContainer extends Component {
           <Route path='/about' component={AboutContainer} />
           <Route path='/resume' component={ResumeContainer} />
           <Route path='/contact' component={ContactContainer} />
+          <Footer />
         </div>
       </Router>
     );

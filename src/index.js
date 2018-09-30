@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import AppContainer from './Containers/AppContainer/AppContainer';
+import AppContainer from './Containers/AppContainer';
 // Comment out registerServiceWorker for production
 import registerServiceWorker from './registerServiceWorker';
 
