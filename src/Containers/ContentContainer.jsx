@@ -10,8 +10,10 @@ class ContentContainer extends Component {
   render() {
     return (
       <div className='container-fluid'>
-        <div className='container content-container' >
-          Here is where content will go!
+        <div className='container'>
+          <div>
+            {this.props.content}
+          </div>
         </div>
       </div>
     );

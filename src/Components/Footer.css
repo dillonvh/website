@@ -1,7 +1,7 @@
 /* TODO: convert to sass */
 
-.footer-container {
-  height: 150px; /* hard code this value for now, but it should really be based on the content of the footer */
+p {
+  margin-bottom: 0;
 }
 
 .footer-text {
@@ -24,6 +24,6 @@
 
 /* TODO: figure out ideal size for icons */
 .linkedin-icon {
-  max-height: 24px;
-  max-width: 24px;
+  max-height: 30px;
+  max-width: 30px;
 }
